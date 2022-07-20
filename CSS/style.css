@@ -299,6 +299,10 @@ body a {
     padding: 13px 12px;
 }
 /* ######################### End of  index page ######################### */
+
+
+
+/* ######################### Start of  upcoming page ######################### */
 .upcoming-article{
     border: 1px solid #00000031;
     text-align: center;
@@ -325,7 +329,15 @@ body a {
 .upcomi-arti-para p{
     font-size: 13px;
 }
+/* ######################### End of  upcoming Page ######################### */
 
+
+
+
+/* ######################### Start of  Media quiry ######################### */
+
+
+/* ##### Start of  Mobile View ##### */
 @media only screen and (max-width: 688px) {
     .main {
         width: 100%;
@@ -421,7 +433,7 @@ body a {
     .article-icon p {
         font-size: 25px;
     }
-
+/* ##### Start of  footer ##### */
     .footer-list ul {
         display: block;
         text-align: center;
@@ -433,7 +445,7 @@ body a {
         padding-top: 70px;
     }
 }
-
+/* ##### Start of  tablet view ##### */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
     .banner {
         display: flex;
@@ -462,7 +474,7 @@ body a {
         width: 100%;
         height: 100%;
     }
-
+/* ##### Start of  banner ##### */
     .blog {
         width: 100%;
         display: flex;
@@ -503,7 +515,7 @@ body a {
     .blog-btn{
         display: block;
     }
-
+/* ##### Start of  footer ##### */
     .footer-list ul {
         flex-wrap: wrap;
         line-height: 0px;
@@ -513,5 +525,5 @@ body a {
         margin-top: 35px;
     }
 }
-
+/* ##### Start of  Desktop View ##### */
 @media only screen and (min-width: 993px) and (max-width: 1400px) {}
